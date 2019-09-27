@@ -1,0 +1,65 @@
+import java.util.*;
+
+public class Main
+{
+    
+    static int alternatingCharacters(String s)
+    {
+        int i=0, c=0;
+        char x;
+        
+        StringBuilder str = new StringBuilder(s);
+        
+        for(i=0;i<s.length()-1;i++)
+        {
+            x=str.charAt(i);
+            
+            if(x==str.charAt(i+1))
+            {
+                str.setCharAt(i,'0');
+                c++;
+            }
+                
+            
+        }
+        s=str.toString().replaceAll("0","");
+        System.out.println(s);
+        
+        return c;
+        
+        
+        
+    }
+
+    
+    
+    public static void main (String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        
+        
+        int i=0,n;
+        n = sc.nextInt();
+        String arr[] = new String[n];
+        int res[] = new int[n];
+        
+
+        
+        
+        for(i=0;i<n;i++)
+        {
+            arr[i] = sc.next();
+            res[i] = alternatingCharacters(arr[i]);
+        }
+        
+        for(i=0;i<n;i++)
+        {
+            System.out.println(res[i]);
+        }
+
+        
+        
+        
+        
+    }
+}
