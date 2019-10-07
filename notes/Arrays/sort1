@@ -24,6 +24,15 @@ public class Main
             System.out.print(arr[i]+" ");
         
         //Output: 20 10 15 22 35 13 17
+		
+		System.out.println();
+		
+		String cities[] = {"Delhi", "Chennai", "Alaska", "Calcutta", "Madras", "Mumbai", "Amritsar"};
+		Arrays.sort(cities);
+		for(i=0;i<cities.length;i++)
+			System.out.print(cities[i]+" ");
+			
+		//Output: Alaska Amritsar Calcutta Chennai Delhi Madras Mumbai
 
 
 	}
