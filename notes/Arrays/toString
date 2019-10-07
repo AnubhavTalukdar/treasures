@@ -15,6 +15,5 @@ public class Main
             System.out.println(Arrays.toString(arr));
             
             //Output: [20, 10, 35, 15, 22, 13, 17]
-
 	}
 }
