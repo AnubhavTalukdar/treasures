@@ -1,6 +1,7 @@
 import java.util.Scanner;
 //The StringBuilder class is present in the java.lang package
 
+//Study replace() and how it can be used to replace, delete and also insert text.
 
 public class Main
 {
