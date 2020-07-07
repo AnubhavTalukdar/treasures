@@ -1,6 +1,7 @@
 import java.util.Scanner;
 //The StringBuilder class is present in the java.lang package
 
+//Study indexOf(), lastIndexOf(), length()
 
 public class Main
 {
