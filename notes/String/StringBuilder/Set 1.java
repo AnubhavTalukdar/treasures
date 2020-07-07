@@ -1,6 +1,8 @@
 import java.lang.StringBuilder.*;
 import java.util.*;
 
+//Study append(), charAt(), getChars()
+
 public class Main
 {
     
