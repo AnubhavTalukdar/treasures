@@ -3,7 +3,7 @@ import java.io.*;
 public class Main
 {
     
-    //Study toLowerCase(), toUpperCase(), isLowerCase() & isUpperCase()
+    //Study toLowerCase(), toUpperCase(), isLowerCase(), isUpperCase(), isDigit()
     
 	public static void main(String[] args)throws IOException {
 		
