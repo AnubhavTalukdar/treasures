@@ -20,11 +20,19 @@ public class Main
         
         // Prints "GEEKS FOR GEEKS"
         
-        System.out.println(Character.isLowerCase(x));
-        //Prints true
+        System.out.println("Lowercase? "+Character.isLowerCase(x));
+        //Prints: Lowercase? true
         
-        System.out.println(Character.isUpperCase(x));
-        //Prints false
+        System.out.println("Uppercase? "+Character.isUpperCase(x));
+        //Prints: Uppercase? false
+        
+        System.out.println("Digit? "+Character.isDigit('3'));
+        //Prints: Digit? true
+        
+        System.out.println("Whitespace? "+Character.isWhitespace(' '));
+        //Prints: Whitespace? true
+        
+        
 		
 	}
 }
