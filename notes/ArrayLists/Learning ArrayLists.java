@@ -1,7 +1,7 @@
 import java.util.*;
 public class Main
 {
-    //Learn add(position, data), remove(item or position), iteration thru advanced for-loop, indexOf(item), get(position), 
+    //Learn add(position, data), remove(item or position), set, iteration thru advanced for-loop, indexOf(item), get(position), 
     // sorting, reversing & clearing
     
 	public static void main(String[] args) {
