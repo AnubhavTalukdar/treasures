@@ -14,7 +14,7 @@ public class Main
         
         alist.add(1, "T"); //Pushing a new element in a specific position
         
-        alist.set(1, "W"); //Updating an exisiting element 
+        alist.set(1, "W"); //Updating an existing element 
         
         alist.add("X");
         alist.add("Y");
